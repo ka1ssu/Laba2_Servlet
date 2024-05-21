@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Отзыв</title>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" media="all" type="text/css" href="Style.css">
+</head>
+<body>
+
+    <div class="button-container">
+        <form method="GET" action="Main" class="form-main">
+            <button type="submit" class="button-main">Главная</button>
+        </form>
+        <form method="GET" action="AboutUs" class="form-main">
+            <button type="submit" class="button-main">О нас</button>
+        </form>
+        <form method="GET" action="Schedule" class="form-main">
+            <button type="submit" class="button-main">Расписание</button>
+        </form>
+        <form method="GET" action="Contacts" class="form-main">
+            <button type="submit" class="button-main">Контакты</button>
+        </form>
+        <form method="GET" action="FeedBack" class="form-main">
+            <button type="submit" class="button-main">Обратная связь</button>
+        </form>
+    </div>
+
+    <div class="title-text">
+        <h1 style="margin-top: 20px;">Оставьте ваш отзыв!</h1>
+    </div>
+
+    <div>
+        <p>
+            <input type="email" id="EmailFeedBack" placeholder="example@mail.ru"
+                   style="display: flex; margin: 20px auto;">
+        </p>
+    </div>
+    <div>
+        <p>
+            <textarea id="textFeedBack" placeholder="Было круто!"
+                      style="display: flex; margin: 0 auto; width: 425px; height: 100px"></textarea>
+        </p>
+        <form method="GET" action="Main" style="text-align: center" class="d-grid gap-2 col-6 mx-auto">
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+    </div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
